@@ -24,5 +24,11 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void _swaps(listint_t **node, listint_t **list);
+void swap_ints(int *a, int *b);
+void selection_sort(int *array, size_t size);
+void swap_ints(int *a, int *b);
+int lomuto_partition(int *array, size_t size, int left, int right);
+void lomuto_sort(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
 
 #endif
